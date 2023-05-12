@@ -1,0 +1,27 @@
+{
+    "name": "magedahmed/aymakan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maged ahmed",
+            "email": "maged.ahmedr@gmail.com"
+        }
+    ],
+    "require": {
+        "aymakan/php-sdk": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "MagedAhmad\\Aymakan\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MagedAhmad\\Aymakan\\Providers\\AymakanServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
