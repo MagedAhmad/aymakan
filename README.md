@@ -9,7 +9,7 @@ A laravel package to add `aymakan` shipment method, it provides access to all it
 you can simply run
 
 ```bash
-  composer require MagedAhmad/aymakan
+  composer require magedahmed/aymakan
 ```
 
 in `.env` file add these
